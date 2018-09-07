@@ -1,7 +1,10 @@
-export function add(a,b){
+function add(a,b){
     return a+b;
-};
+}
 
-export const substract = (a,b)=>{
+const substract = (a,b)=>{
  return a-b;
-};
+}
+
+
+export { add, substract };

@@ -1,12 +1,14 @@
+// import isOs from './util/isOs.js'
+// import isMobile from './util/isMobile.js';
 
-import {add, substract} from './modules/libA';
 
-class App{
+// console.log(isOs('samsung'));
+// console.log(isMobile());
 
-    constructor(){
-        console.log(add(2,3));
-        console.log(substract(2,3));
-    }
-}
+import d,{a, c as e, growl,type} from './example.js';
 
-var a = new App();
+console.log(a,d,e);
+
+
+let say = growl();
+console.log(`${type},${say}`)
